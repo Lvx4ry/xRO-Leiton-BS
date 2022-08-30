@@ -1,6 +1,38 @@
 * {
   text-align: center;
+  font-family: "Roboto", sans-serif;
 }
-.borde {
-  border: 2px solid black;
+html {
+  font-size: 62.5%;
+}
+.bordeBlanco {
+  border: 1px solid white;
+}
+.footerBg {
+  background-image: url(../assets/img/crystalBg.jpg);
+}
+.whiteTxt {
+  color: white !important;
+}
+footer nav ul {
+  padding: 0;
+}
+.lbBgColor {
+  background-color: #87c0cd;
+}
+.darkBlueColor {
+  background-color: #113f67;
+}
+.lbTxt {
+  color: #87c0cd;
+}
+.bordeRedondo {
+  border: 1px solid transparent;
+  border-radius: 1rem;
+}
+@media only screen and (max-width: 769px) {
+  .imgSvFt {
+    width: 40%;
+    margin: 0.5rem;
+  }
 }

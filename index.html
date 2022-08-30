@@ -4,6 +4,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
 
     <!-- Bootstrap CSS -->
     <link
@@ -18,11 +19,13 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
+      <nav class="navbar navbar-expand-lg navbar-light darkBlueColor">
+        <div class="container justify-content-around">
+          <a class="navbar-brand" href="#"
+            ><img src="assets/img/logoPlaceholder.png" alt="" class="col-8"
+          /></a>
           <button
-            class="navbar-toggler"
+            class="navbar-toggler col-2 bg-light"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarNavAltMarkup"
@@ -32,64 +35,58 @@
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-              <a class="nav-link" href="#">Features</a>
-              <a class="nav-link" href="#">Pricing</a>
-              <a class="nav-link disabled">Disabled</a>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNavAltMarkup"
+          >
+            <div class="navbar-nav fs-3 whiteTxt">
+              <a class="nav-link whiteTxt mx-2" href="#">Home</a>
+              <a class="nav-link whiteTxt mx-2" href="#">Downloads</a>
+              <a class="nav-link whiteTxt mx-2" href="#">Register</a>
+              <a class="nav-link whiteTxt mx-2" href="#">About Us</a>
+              <a class="nav-link whiteTxt mx-2" href="#">LeaderBoards</a>
+              <a class="nav-link whiteTxt mx-2" href="#">Contact</a>
             </div>
           </div>
         </div>
       </nav>
     </header>
-    <main>
-      <div class="container-fluid">
-        <div class="row">
-          <form class="col-10 col-lg-2">
-            <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label"
-                >Email address</label
-              >
+    <main class="fs-2">
+      <div class="container-fluid mt-5 ">
+        <div class="row justify-content-center ">
+          <form class="col-8 col-lg-4 darkBlueColor p-5 bordeRedondo">
+            <div class="my-1">
+              <h1 class="whiteTxt mb-3">Player Login</h1>
               <input
                 type="email"
-                class="form-control"
+                class="form-control mb-3 fs-4"
                 id="exampleInputEmail1"
                 aria-describedby="emailHelp"
-              />
-              <div id="emailHelp" class="form-text">
-                We'll never share your email with anyone else.
-              </div>
-            </div>
-            <div class="mb-3">
-              <label for="exampleInputPassword1" class="form-label"
-                >Password</label
-              >
+                placeholder="Username"
+              />          
+            </div>            
               <input
                 type="password"
-                class="form-control"
+                class="form-control fs-4"
                 id="exampleInputPassword1"
+                placeholder="Password"
               />
+              <button 
+                type="submit" 
+                class="btn btn-primary mt-5 col-4 fs-4">
+                Login
+              </button>
+              <p class="whiteTxt mt-3">Don't have an account?</p>
+              <a href="" class="lbTxt text-decoration-none">Register Here!</a>
             </div>
-            <div class="mb-3 form-check">
-              <input
-                type="checkbox"
-                class="form-check-input"
-                id="exampleCheck1"
-              />
-              <label class="form-check-label" for="exampleCheck1"
-                >Check me out</label
-              >
-            </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
           </form>
         </div>
       </div>
-      <div class="container-fluid">
+      <div class="container-fluid my-5 py-5 lbBgColor">
         <div class="row">
           <div class="col-12 col-lg-12">
-            <h1>Server Features</h1>
-            <p>
+            <h1 >Server Features</h1>
+            <p class="fs-4">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit.
               Explicabo, eos eum culpa voluptates perspiciatis esse! Non earum
               quas assumenda atque sed quidem vero perspiciatis id, itaque
@@ -102,60 +99,81 @@
             <img
               src="assets/img/placeholder.png"
               alt=""
-              class="col-5 col-lg-3 img-fluid"
+              class="col-4 col-lg-3 img-fluid my-3 mx-5 imgSvFt"
             />
             <img
               src="assets/img/placeholder.png"
               alt=""
-              class="col-5 col-lg-3 img-fluid"
+              class="col-4 col-lg-3 img-fluid my-3 mx-5 imgSvFt"
             />
             <img
               src="assets/img/placeholder.png"
               alt=""
-              class="col-5 col-lg-3 img-fluid"
+              class="col-4 col-lg-3 img-fluid my-3 mx-5 imgSvFt"
             />
             <img
               src="assets/img/placeholder.png"
               alt=""
-              class="col-5 col-lg-3 img-fluid"
+              class="col-4 col-lg-3 img-fluid my-3 mx-5 imgSvFt"
             />
             <img
               src="assets/img/placeholder.png"
               alt=""
-              class="col-5 col-lg-3 img-fluid"
+              class="col-4 col-lg-3 img-fluid my-3 mx-5 imgSvFt"
             />
             <img
               src="assets/img/placeholder.png"
               alt=""
-              class="col-5 col-lg-3 img-fluid"
+              class="col-4 col-lg-3 img-fluid my-3 mx-5 imgSvFt"
             />
           </div>
         </div>
       </div>
-      <div class="container-fluid">
+      <div class="container-fluid mt-5">
         <div class="row">
           <div class="col-12 col-lg-12">
             <h1>News</h1>
             <img
               src="assets/img/placeholder.png"
               alt=""
-              class="col-10 col-lg-3"
+              class="col-10 col-lg-3 mx-5 my-3"
+            />
+            <img
+              src="assets/img/placeholder.png"
+              alt=""
+              class="col-10 col-lg-3 mx-5 my-3"
+            />
+            <img
+              src="assets/img/placeholder.png"
+              alt=""
+              class="col-10 col-lg-3 mx-5 my-3"
             />
           </div>
         </div>
       </div>
     </main>
-    <footer class="container-fluid">
-      <div class="row">
-        <div class="col-4 col-lg-5">
-          <ul>
-            <li>Home</li>
-            <li>Register</li>
-            <li>Contact</li>
-          </ul>
+    <footer class="container-fluid footerBg whiteTxt mt-5 pb-3">
+      <div class="row justify-content-around">
+        <ul class="nav col-12 col-lg-5 justify-content-center">
+          <li class="nav-item d-flex align-items-center mx-2 fs-3">
+            <a class="nav-link whiteTxt" href="#">Home</a>
+          </li>
+          <li class="nav-item d-flex align-items-center mx-2 fs-3">
+            <a class="nav-link whiteTxt" href="#">Register</a>
+          </li>
+          <li class="nav-item d-flex align-items-center mx-2 fs-3">
+            <a class="nav-link whiteTxt" href="#">Contact</a>
+          </li>
+          
+        </ul>
+        <div class="col-4 col-lg-4">
+          <img src="assets/img/logoPlaceholder.png" alt="" class="img-fluid col-5 col-lg-3" />
         </div>
-        <div class="col-4 col-lg-5">
-          <img src="assets/img/logoPlaceholder.png" alt="" class="img-fluid" />
+      </div>
+      <div class="row">
+        <div class="col-12 text-center fs-4">
+          All trademarks referenced herein are the properties of their
+          respective owners.
         </div>
       </div>
     </footer>
