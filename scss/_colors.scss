@@ -1,0 +1,31 @@
+.inputTextColor {
+  color: map-get($colors, blackColor);
+}
+
+.lbTxt {
+  color: map-get($colors, lightBlueColor);
+}
+
+.blackText {
+  color: map-get($colors, blackColor);
+}
+
+.lbBgColor {
+  background-color: map-get($colors, lightBlueColor);
+}
+
+.mainBgColor {
+  background-color: map-get($colors, whiteColor);
+}
+
+.whiteTxt {
+  color: map-get($colors, whiteColor) !important;
+}
+
+.darkBlueColor {
+  background-color: map-get($colors, darkBlueColor);
+}
+
+.inputBgColor {
+  background-color: map-get($colors, whiteColor);
+}
