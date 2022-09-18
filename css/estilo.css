@@ -1,57 +1,75 @@
 .inputTextColor {
-  color: black; }
+  color: black;
+}
 
 .lbTxt {
-  color: #87c0cd; }
+  color: #87c0cd;
+}
 
 .blackText {
-  color: black; }
+  color: black;
+}
 
 .lbBgColor {
-  background-color: #87c0cd; }
+  background-color: #87c0cd;
+}
 
 .mainBgColor {
-  background-color: #f3f9fb; }
+  background-color: #f3f9fb;
+}
 
 .whiteTxt {
-  color: #f3f9fb !important; }
+  color: #f3f9fb !important;
+}
 
 .darkBlueColor {
-  background-color: #113f67; }
+  background-color: #113f67;
+}
 
 .inputBgColor {
-  background-color: #f3f9fb; }
+  background-color: #f3f9fb;
+}
 
 * {
   text-align: center;
-  font-family: "Roboto", sans-serif; }
+  font-family: "Roboto", sans-serif;
+}
 
 html {
-  font-size: 62.5%; }
+  font-size: 62.5%;
+}
 
 /* IMG SIZING */
 .iframeSize {
-  height: 30rem; }
+  height: 30rem;
+}
 
 .footerBg {
-  background-image: url(../assets/img/crystalBg.jpg); }
+  background-image: url(../assets/img/crystalBg.jpg);
+}
 
 footer nav ul {
-  padding: 0; }
+  padding: 0;
+}
 
 @media only screen and (max-width: 769px) {
   .imgSvFt {
     width: 40%;
-    margin: 0.5rem; } }
+    margin: 0.5rem;
+  }
+}
 
 /* BORDES */
 .bordeRedondo {
   border: 1px solid transparent;
-  border-radius: 1rem; }
+  border-radius: 1rem;
+}
 
 .bordeBlanco {
-  border: 1px solid white; }
+  border: 1px solid white;
+}
 
 /* TABLE SIZE */
 .tableSize {
-  width: 80%; }
+  width: 80%;
+}
