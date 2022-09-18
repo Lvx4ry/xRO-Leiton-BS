@@ -12,3 +12,18 @@
 .tableSize {
   width: 80%;
 }
+
+/* li no bullets */
+
+li {
+  list-style-type: none;
+}
+
+/* Download Buttons */
+
+.autoFrame {
+  height: auto;
+  text-align: center;
+  border: map-get($colors, darkBlueColor) solid 0.5rem;
+  border-radius: 10px;
+}
