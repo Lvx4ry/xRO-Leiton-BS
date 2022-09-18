@@ -22,6 +22,9 @@
 .inputBgColor {
   background-color: #f3f9fb; }
 
+.blackBgColor {
+  background-color: rgba(0, 0, 0, 0.822); }
+
 * {
   text-align: center;
   font-family: "Roboto", sans-serif; }
@@ -55,3 +58,14 @@ footer nav ul {
 /* TABLE SIZE */
 .tableSize {
   width: 80%; }
+
+/* li no bullets */
+li {
+  list-style-type: none; }
+
+/* Download Buttons */
+.autoFrame {
+  height: auto;
+  text-align: center;
+  border: #113f67 solid 0.5rem;
+  border-radius: 10px; }
