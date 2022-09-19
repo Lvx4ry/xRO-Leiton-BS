@@ -27,3 +27,11 @@ li {
   border: map-get($colors, darkBlueColor) solid 0.5rem;
   border-radius: 10px;
 }
+
+/* fix body para que el footer este siempre al final */
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
