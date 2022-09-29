@@ -58,6 +58,13 @@ footer {
 .bordeBlanco {
   border: 1px solid white; }
 
+.bordeAzul {
+  border: 1px solid #113f67; }
+
+.bottomBorder {
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem; }
+
 /* TABLE SIZE */
 .tableSize {
   width: 80%; }
@@ -78,3 +85,8 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column; }
+
+/* FILLER IMGS */
+.fillerImg {
+  height: 640px;
+  width: auto; }
